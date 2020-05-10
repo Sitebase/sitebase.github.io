@@ -1,0 +1,32 @@
+---
+layout: post
+title: "Setup Foscam"
+description: "Installed my new Foscam at my front door with a Dropbox sync"
+modified: 2016-08-05 19:35:17 +0100
+tags: [electronics, security]
+image:
+  opacity: 0.4
+  feature: posts/2016/iphone-toothpick.jpg
+  credit:
+  creditlink:
+comments: true
+share: true
+---
+For security (and fun) I ordered and placed a IP cam at my front door. It took me a while to figure out what I wanted and to pick the right camera for the job.
+
+I ended up going for the Foscam X which is a very solid camera in that price range. I was really surprised by the solid metal body that was used.
+
+
+## Making the cam wireless
+I
+
+## Setup zoneminder
+* Docker
+* rtsp stream testing using VLC and problem was that you need to use admin account for RTSP stream to work
+
+## Result
+Alarm to turn on my lights
+
+
+https://github.com/aptalca/docker-zoneminder
+http://server2.lan:32773/zm/

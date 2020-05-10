@@ -1,0 +1,24 @@
+---
+layout: default
+body_id: post-index
+---
+{{ content }}
+
+{% for post in site.posts %}
+<div class="article article--short">
+    <div class="article__head-title">
+        <h2>
+            <a href="{{ site.url }}{{ post.url }}" class="article__head-title-link">
+                {{ post.title }}
+            </a>
+        </h2>
+        <div class="small">Posted on <time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%B %d, %Y" }}</time> by Wim Mostmans</div>
+    </div>
+    <img src="{{ site.url }}/images/{{ post.image.feature }}" class="article__head-image article__head-image--small" />
+    {{ post.excerpt }}
+    <a href="{{ site.url }}{{ post.url }}" class="button button--transparent">Read More</a>
+</div>
+<hr />
+{% endfor %}
+
+{% include about.html %}

@@ -1,0 +1,55 @@
+---
+layout: default
+body_id: post-index
+---
+<h1>{{ page.title }}</h1>
+{{ content }}
+
+<h2>Finished Book List</h2>
+{% assign books = site.data.book | sort: "completed" | reverse %}
+{% for book in books %}
+{% if book.completed != false %}
+<div class="article article--short">
+    <div class="columns-book">
+        <img src="{{ book.image }}" class="article__head-image article__head-image--small article__head-image--tall article__head-image--book" />
+        <div>
+            <div class="article__head-title">
+                <h3>{{ book.name }}</h3>
+                <div class="small">
+                    by {{ book.author }}
+                </div>
+            </div>
+            <p>{{ book.excerpt }}</p>
+        </div>
+    </div>
+</div>
+<hr />
+{% endif %}
+{% endfor %}
+
+<h2>Reading List</h2>
+{% for book in books %}
+{% if book.completed == false %}
+<div class="article article--short">
+    <div class="columns-book">
+        <img src="{{ book.image }}" class="article__head-image article__head-image--small article__head-image--tall article__head-image--book article__head-image--grayscale" />
+        <div>
+            <div class="article__head-title">
+                <h3>
+                    <a href="{{ site.url }}{{ post.url }}" class="article__head-title-link">
+                        {{ book.name }}
+                    </a>
+                </h3>
+                <div class="small">
+                    by {{ book.author }}
+                </div>
+            </div>
+            <p>{{ book.excerpt }}</p>
+        </div>
+    </div>
+</div>
+<hr />
+{% endif %}
+{% endfor %}
+
+{% include about.html %}

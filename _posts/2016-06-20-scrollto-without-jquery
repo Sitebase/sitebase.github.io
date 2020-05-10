@@ -1,0 +1,24 @@
+---
+layout: post
+title: "ScrollTo without jQuery"
+description: ""
+modified: 2016-05-15 20:35:17 +0100
+tags: [es6, javascript, reactjs]
+image:
+  opacity: 0.4
+  feature: posts/2016/avatars.jpg
+  credit:
+  creditlink:
+comments: true
+share: true
+---
+This post is a little addition to me previous blog post about the native first JavaScript approach.
+It's not the first time that I've seen developers include jQuery as dependency just because they need the scrollTo functionality.
+
+examples on stackoverflow
+
+very good browser support
+http://caniuse.com/#search=scrollintoview
+
+
+https://developer.mozilla.org/en/docs/Web/API/Element/scrollIntoView

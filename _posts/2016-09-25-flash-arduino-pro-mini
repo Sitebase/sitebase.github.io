@@ -1,0 +1,34 @@
+---
+layout: post
+title: "Flash Arduino Pro Mini"
+description: "Burn the bootloader on an Arduino Pro mini using Arduino UNO as ISP"
+modified: 2016-09-25 19:35:17 +0100
+tags: [electronics, arduino]
+image:
+  opacity: 0.4
+  feature: posts/2016/iphone-toothpick.jpg
+  credit:
+  creditlink:
+comments: true
+share: true
+---
+
+pin connections
+
+UNO ---> Pro Mini (3.3v and 5v)
+5v > VCC (also for the 3.3v version)
+GND > GND
+10 > RST
+11 > 11
+12 > 12
+13 > 13
+
+Put Arduino as ISP sketch on UNO
+Select board type pro mini
+Select USB port
+And hit burn bootloader
+
+* 3.3v pro mini should also be powered with 5v during flashing the bootloader
+* don't power through raw pin or it will not work
+* you see some people using a capacitor for the RST pin but that is not needed when using pin 10 (only needed when using RST pin of ISCP header? because it stays low)
+

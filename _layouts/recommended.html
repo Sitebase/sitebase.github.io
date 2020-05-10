@@ -1,0 +1,30 @@
+---
+layout: default
+body_id: post-index
+---
+<h1>{{ page.title }}</h1>
+{{ content }}
+
+{% assign recommended = site.data.recommended | reverse %}
+{% for post in recommended %}
+<div class="article article--short">
+    <div class="columns-article">
+        <img src="{{ post.image }}" class="article__head-image article__head-image--small" />
+        <div>
+            <div class="article__head-title">
+                <h3>
+                    {{ post.title }}
+                </h3>
+                <div class="small">
+                    by {{ post.author }}
+                </div>
+            </div>
+            <p>{{ post.excerpt }}</p>
+            <a href="{{ post.url }}" target="_blank" class="button button--transparent">Read Article</a>
+        </div>
+    </div>
+</div>
+<hr />
+{% endfor %}
+
+{% include about.html %}
