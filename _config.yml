@@ -1,41 +1,28 @@
-# Welcome to Jekyll!
-#
-# This config file is meant for settings that affect your whole blog, values
-# which you are expected to set up once and rarely edit after that. If you find
-# yourself editing this file very often, consider using Jekyll's data files
-# feature for the data you need to update frequently.
-#
-# For technical reasons, this file is *NOT* reloaded automatically when you use
-# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
-#
-# If you need help with YAML syntax, here are some quick references for you: 
-# https://learn-the-web.algonquindesign.ca/topics/markdown-yaml-cheat-sheet/#yaml
-# https://learnxinyminutes.com/docs/yaml/
-#
 # Site settings
-# These are used to personalize your new site. If you look in the HTML files,
-# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
-# You can create any custom variable you would like, and they will be accessible
-# in the templates via {{ site.myvariable }}.
-
+locale: "en-US"
 title: "Sitebase"
 title_separator: "-"
 email: wim@sitebase.be
-description: >- # this means to ignore newlines until "baseurl:"
+description: > # this means to ignore newlines until "baseurl:"
   Write an awesome description for your new site here. You can edit this
   line in _config.yml. It will appear in your document head meta (for
   Google search results) and in your feed.xml site description.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://www.sitebase.be" # the base hostname & protocol for your site
 disqus_shortname: sitebase
-twitter_username: jekyllrb
-github_username:  jekyll
+twitter_username: sitebase
+github_username:  sitebase
 
 # Build settings
 timezone:    Europe/Brussels
 future:      true
 highlighter: rouge
 markdown: kramdown
+plugins:
+  - jekyll-paginate
+
+# Amount of post to show on home page
+paginate: 5
 
 # SEO
 permalink: /:title/
@@ -46,29 +33,58 @@ bing_site_verification   : "652CEB15C63A549789119465E65DC74C"
 alexa_site_verification  :
 yandex_site_verification : "a1415abd2aeb78f5"
 
-# Build settings
-theme: minima
-plugins:
-  - jekyll-feed
+# Social Sharing
+twitter:
+  username               : "Sitebase"
+facebook:
+  username               :
+  app_id                 :
+  publisher              :
+og_image                 : # Open Graph/Twitter default site image
+# For specifying social profiles
+# - https://developers.google.com/structured-data/customize/social-profiles
+social:
+  type                   : "person"
+  name                   : "Wim Mostmans"
+  links:
+    - "https://twitter.com/sitebase"
+    - "https://be.linkedin.com/in/sitebase"
+    - "https://www.flickr.com/photos/24652808@N02/"
+    - "http://stackoverflow.com/users/776272/wim-mostmans"
+    - "https://www.instagram.com/sitebase/"
 
-paginate: 5
+# Site Author
+author:
+  name             : "Wim Mostmans"
+  avatar           : "avatar-wim.jpg"
+  bio              : "Freelance developer and Co-founder of <a href='https://www.ambassify.com'>Ambassify</a> with a general interest for web technologies and electronics."
+  location         : "Belgium"
+  email            : "wim@sitebase.be"
+  uri              : "http://sitebase.be"
+  bitbucket        :
+  codepen          :
+  dribbble         :
+  facebook         :
+  foursquare       :
+  github           : "sitebase"
+  keybase          : "sitebase"
+  instagram        : "sitebase"
+  lastfm           :
+  linkedin         : "sitebase"
+  pinterest        : "sitebase"
+  soundcloud       :
+  stackoverflow    : "http://stackoverflow.com/users/776272/wim-mostmans"
+  steam            :
+  tumblr           :
+  twitter          : "sitebase"
+  vine             :
+  weibo            :
+  xing             :
+  youtube          : "sitebase"
 
-# Exclude from processing.
-# The following items will not be processed, by default.
-# Any item listed under the `exclude:` key here will be automatically added to
-# the internal "default list".
-#
-# Excluded items can be processed by explicitly listing the directories or
-# their entries' file path in the `include:` list.
-#
-# exclude:
-#   - .sass-cache/
-#   - .jekyll-cache/
-#   - gemfiles/
-#   - Gemfile
-#   - Gemfile.lock
-#   - node_modules/
-#   - vendor/bundle/
-#   - vendor/cache/
-#   - vendor/gems/
-#   - vendor/ruby/
+# HTML Compression
+# - http://jch.penibelst.de/
+compress_html:
+  clippings: all
+  ignore:
+    envs: development
