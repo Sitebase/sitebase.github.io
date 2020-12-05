@@ -9,6 +9,7 @@
     --main-color-background: 255, 255, 255;
     --main-color-primary: 241, 196, 14;
     --main-color-primary-alt: 51, 51, 51;
+    --main-color-primary-alt-light: 100, 100, 100;
     --main-color-primary-border: 0, 0, 0, 0.2;
     --main-color-secondary: 51, 51, 51;
     --main-color-secondary-alt: #fff;
@@ -49,6 +50,10 @@ h1, h2, h3, h4 {
     font-family: var(--main-font-primary);
     color: rgb(var(--main-color-primary-alt));
     margin-bottom: 0px;
+    padding-top: 1em;
+}
+h3 {
+    color: rgb(var(--main-color-primary-alt-light));
 }
 
 p, ol, ul, li { 
@@ -392,8 +397,8 @@ img {
     padding-left: 1em;
 }
 .article__head-title > * {
-    margin-block-start: 0.4em;
-    margin-block-end: 0.4em;
+    margin-block-start: 0.1em;
+    margin-block-end: 0.1em;
     margin-inline-start: 0px;
     margin-inline-end: 0px;
 }
@@ -460,10 +465,13 @@ img {
 }
 */
 
-@media only screen and (max-width: 620px) {
+@media only screen and (max-width: 750px) {
     [role=main] {
         width: auto; 
         margin: 2em;
+    }
+    .nav__code {
+        display: none;
     }
     .columns {
         grid-template-columns: 100%;
