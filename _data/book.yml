@@ -10,6 +10,12 @@
   image: https://s.s-bol.com/imgbase0/imagebase3/large/FC/8/6/4/7/9200000104877468.jpg
   link: https://www.bol.com/nl/f/gigantisme/9200000104877467/?country=BE
   completed: 2020-04-15
+- name: Nooit meer slachten
+  excerpt: "De mens eet graag vlees. Dat is al duizenden jaren zo, maar door de groeiende wereldbevolking en de stijgende vraag naar vlees, eieren, zuivel en andere dierlijke producten legt dat een enorme druk op onze planeet, onze gezondheid en de dieren zelf."
+  author: Paul Shapiro
+  image: https://s.s-bol.com/imgbase0/imagebase3/large/FC/1/9/0/8/9200000109788091.jpg
+  link: https://www.bol.com/nl/p/nooit-meer-slachten/9200000102150349/
+  completed: 2020-03-28
 - name: Econoshock 2.0
   excerpt: "Het boek dat het maatschappelijk-economische debat de volgende maanden zal domineren. 15 september 2008, kwart voor twee 's ochtends. Het ondenkbare gebeurt: de Amerikaanse zakenbank Lehman Brothers moet bescherming aanvragen tegen zijn schuldeisers en sleurt in zijn val het hele financiële systeem mee." 
   author: Geert Noels
@@ -40,6 +46,24 @@
   image: https://media.s-bol.com/xkqVvzolQ0vE/533x840.jpg
   link: https://www.bol.com/nl/p/tax-me-if-you-can/9200000023972980/?bltgh=r5veCOfvoKnDk1QN7TxHRw.1_4.5.ProductTitle
   completed: 2020-11-05
+- name: Verdubbel je geld in vijf jaar
+  excerpt: "Na vijf jaar onverstandig en nadien vijftien jaar verstandig beleggen verdubbelde hij ongeveer driemaal zijn inleg. In dit boek deelt hij beproefde principes, bruikbare tips en een beetje psychologie. Na het lezen ervan zal de belegger het pad zien om zelf op lange termijn een fors vermogen op te bouwen. Hij zal een eigen persoonlijke en logische beleggingsstrategie kunnen vormen, beleggingsdiscipline aankweken, en weten hoe de juiste aandelen te identificeren. Dit boek is onontbeerlijk voor elke belegger, jong en oud, ervaren en onervaren."
+  author: Sam Hollanders
+  image: https://media.s-bol.com/R6oANZVqX23w/550x825.jpg
+  link: https://www.bol.com/nl/p/verdubbel-je-geld-in-vijf-jaar/9200000114382147/?country=BE
+  completed: 2020-11-19
+- name: De Rijkste Man van Babylon
+  excerpt: "Wat is het geheim voor een rijk leven? Het heeft niet uitsluitend te maken met afkomst, geluk en intelligentie. Er zijn veel rijke mensen die hun school nooit hebben afgemaakt. Zo zijn er ook hoogopgeleiden die weinig geld verdienen."
+  author: George Samuel Clason
+  image: https://media.s-bol.com/D99qv9XnB0Ay/550x774.jpg
+  link: https://www.bol.com/nl/p/de-rijkste-man-van-babylon/9200000123910991/
+  completed: 2020-11-23
+- name: Slim Beleggen
+  excerpt: "Wat is het geheim voor een rijk leven? Het heeft niet uitsluitend te maken met afkomst, geluk en intelligentie. Er zijn veel rijke mensen die hun school nooit hebben afgemaakt. Zo zijn er ook hoogopgeleiden die weinig geld verdienen."
+  author: Nico Pantelis
+  image: https://media.s-bol.com/R2WLP1Y34Yz/546x840.jpg
+  link: https://www.bol.com/nl/p/slim-beleggen/9200000077147745/?country=BE
+  completed: 2020-11-27
 - name: Sapiens
   excerpt: "Honderdduizend jaar geleden waren er wel zes verschillende menssoorten. Nu is er maar één soort over, en dat zijn wij. Homo sapiens. Hoe komt het dat alleen wij zijn overgebleven?"
   author: Yuval Noah Harari
@@ -51,12 +75,6 @@
   author: Yuval Noah Harari
   image: https://s.s-bol.com/imgbase0/imagebase3/large/FC/8/8/9/9/9200000116369988.jpg
   link: https://www.bol.com/nl/p/homo-deus/9200000116369988/
-  completed: false
-- name: Rich Dad Poor Dad
-  excerpt: RICH DAD, POOR DAD is a starting point for anyone looking to gain control of their financial future USA TODAY Robert Kiyosaki's work in education is powerful, profound, and life changing. I salute his efforts and recommend him highly Anthony Robbins
-  author: Robert T. Kiyosaki
-  image: https://s.s-bol.com/imgbase0/imagebase3/large/FC/2/9/6/3/9200000070113692.jpg
-  link: https://www.bol.com/nl/p/rich-dad-poor-dad/9200000070113692/
   completed: false
 - name: Cradle to Cradle
   excerpt: "PATTERNS OF LIFE: SPECIAL EDITIONS OF GROUNDBREAKING SCIENCE BOOKS This book proposes a new vision for modern industry. Instead of our current wasteful and polluting methods of manufacturing, we could be taking nature as a model for making things."
@@ -101,9 +119,3 @@ woontes veranderen blijkt aartsmoeilijk. Vermageringsdiëten leunen op louter wi
   image: https://s.s-bol.com/imgbase0/imagebase3/large/FC/1/0/5/7/9200000100577501.jpg
   link: https://www.bol.com/nl/p/can-t-hurt-me/9200000100577501/
   completed: false
-- name: Nooit meer slachten
-  excerpt: "De mens eet graag vlees. Dat is al duizenden jaren zo, maar door de groeiende wereldbevolking en de stijgende vraag naar vlees, eieren, zuivel en andere dierlijke producten legt dat een enorme druk op onze planeet, onze gezondheid en de dieren zelf."
-  author: Paul Shapiro
-  image: https://s.s-bol.com/imgbase0/imagebase3/large/FC/1/9/0/8/9200000109788091.jpg
-  link: https://www.bol.com/nl/p/nooit-meer-slachten/9200000102150349/
-  completed: 2020-03-28
