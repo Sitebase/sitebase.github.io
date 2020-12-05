@@ -64,6 +64,12 @@
   image: https://media.s-bol.com/R2WLP1Y34Yz/546x840.jpg
   link: https://www.bol.com/nl/p/slim-beleggen/9200000077147745/?country=BE
   completed: 2020-11-27
+- name: Shape Up
+  excerpt: "Shape Up is for product development teams who struggle to ship. If you’ve thought to yourself “Why can’t we ship like we used to?” or “I never have enough time to think about strategy,” then this book can help. You’ll learn language and techniques to define focused projects, address unknowns, and increase collaboration and engagement within your team."
+  author: Ryan Singer
+  image: /images/books/basecamp-shape-up.png
+  link: https://basecamp.com/shapeup
+  completed: 2020-12-04
 - name: Sapiens
   excerpt: "Honderdduizend jaar geleden waren er wel zes verschillende menssoorten. Nu is er maar één soort over, en dat zijn wij. Homo sapiens. Hoe komt het dat alleen wij zijn overgebleven?"
   author: Yuval Noah Harari
