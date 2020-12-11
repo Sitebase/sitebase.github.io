@@ -70,6 +70,12 @@
   image: /images/books/basecamp-shape-up.png
   link: https://basecamp.com/shapeup
   completed: 2020-12-04
+- name: Emotionele Intelligentie Op De Beurs
+  excerpt: "In dit werk wordt de beurs benaderd vanuit de optiek van de 'behavioral finance': welke fouten maken beleggers, en welke onnauwkeurigheden vertellen beleggingsadviseurs?"
+  author: Thierry Debels
+  image: https://media.s-bol.com/Z6OVYM62BwjE/540x840.jpg
+  link: https://www.bol.com/nl/f/emotionele-intelligentie-op-de-beurs/38108506/?country=BE
+  completed: 2020-12-09
 - name: Sapiens
   excerpt: "Honderdduizend jaar geleden waren er wel zes verschillende menssoorten. Nu is er maar één soort over, en dat zijn wij. Homo sapiens. Hoe komt het dat alleen wij zijn overgebleven?"
   author: Yuval Noah Harari
