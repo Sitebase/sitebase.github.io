@@ -81,11 +81,11 @@ pre {
     box-sizing: border-box;
     font-size: 0.8em;
     width: 100%;
-    background-color: #f2f2f2;
+    background-color: rgb(var(--main-color-secondary));
     margin: 15px;
     padding: 10px;
     overflow: auto;
-    color: rgb(var(--main-color-text));
+    color: rgb(var(--main-color-secondary-alt));
     border-radius: var(--main-border-radius);
 }
 code {
