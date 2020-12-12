@@ -7,11 +7,12 @@
     * Colors
     */
     --main-color-background: 255, 255, 255;
-    --main-color-primary: 241, 196, 14;
-    --main-color-primary-alt: 51, 51, 51;
+    --main-color-text: 25, 33, 44;
+    --main-color-primary: 251, 34, 60;
+    --main-color-primary-alt: 255, 255, 255;
     --main-color-primary-alt-light: 100, 100, 100;
     --main-color-primary-border: 0, 0, 0, 0.2;
-    --main-color-secondary: 51, 51, 51;
+    --main-color-secondary: 25, 33, 44;
     --main-color-secondary-alt: #fff;
     --main-color-secondary-border: 0, 0, 0, 1;
     --main-color-secondary-alt: #fff;
@@ -44,21 +45,22 @@ html, body {
     background: rgba(var(--main-color-background));
     font-size: 19px;
     margin: 0;
+    background: linear-gradient(0deg, white, #f6f8ff 80%) ;
 }
 
 h1, h2, h3, h4 {
     font-family: var(--main-font-primary);
-    color: rgb(var(--main-color-primary-alt));
+    color: rgb(var(--main-color-text));
     margin-bottom: 0px;
-    padding-top: 1em;
+    padding-top: 0.5em;
 }
 h3 {
-    color: rgb(var(--main-color-primary-alt-light));
+    color: rgb(var(--main-color-text));
 }
 
 p, ol, ul, li { 
     font-family: var(--main-font-secondary);
-    color: rgba(var(--main-color-primary-alt));
+    color: rgba(var(--main-color-text));
 }
 
 p a:link, p a:active, p a:visited, li a:link, li a:active, li a:visited {
@@ -83,6 +85,7 @@ pre {
     margin: 15px;
     padding: 10px;
     overflow: auto;
+    color: rgb(var(--main-color-text));
     border-radius: var(--main-border-radius);
 }
 code {
@@ -180,7 +183,7 @@ img {
 .button {
     background: rgb(var(--main-color-primary));
     border-radius: var(--main-border-radius);
-    border: 1px solid rgba(var(--main-color-primary-border));
+    border-bottom: 3px solid rgba(var(--main-color-primary-border));
     color: rgba(var(--main-color-primary-alt));
     cursor: pointer;
     display: inline-block;
@@ -194,14 +197,16 @@ img {
     transition: all .2s ease-in-out;
     white-space: nowrap;
     width: initial;
+    font-weight: 600;
 }
 .button:active, .button:visited, .button:link {
     color: rgb(var(--main-color-primary-alt));
     text-decoration: none;
 }
-.button--transparent {
+.button.button--transparent {
     background: transparent;
-    border: 1px solid rgba(0,0,0);
+    border: 1px solid rgb(var(--main-color-secondary));
+    color: rgb(var(--main-color-secondary));
 }
 .button.button--tag {
     font-size: 0.8em;
@@ -243,6 +248,9 @@ img {
 .promotion__content {
     font-size: 0.9em;
 }
+.promotion__content *:first-child {
+    padding-top: 0;
+}
 .promotion--illustrated {
     display: grid;
     grid-template-columns: 15% 75%;
@@ -274,6 +282,9 @@ img {
 .nav__logo {
     text-decoration: none; 
     color: rgb(var(--main-color-secondary));
+}
+.nav__logo2 {
+    width: 200px;
 }
 .nav__avatar {
     max-height: 60px;
@@ -476,5 +487,8 @@ img {
     .columns {
         grid-template-columns: 100%;
         grid-gap: 0px;
+    }
+    .hide-on-mobile {
+        display: none;
     }
 }
