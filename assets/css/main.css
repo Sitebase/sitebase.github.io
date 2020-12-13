@@ -259,7 +259,7 @@ img {
 }
 .promotion--illustrated {
     display: grid;
-    grid-template-columns: 15% 75%;
+    grid-template-columns: 16% 74%;
     grid-gap: 1.5em;
 }
 
