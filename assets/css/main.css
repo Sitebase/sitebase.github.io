@@ -245,6 +245,7 @@ img {
 .promotion__avatar {
     margin: 15px 0;
     width: 100%;
+    height: auto;
     border-radius: 50%;
 }
 .promotion__icon {
@@ -507,6 +508,7 @@ img {
     }
     .article img {
         width: 100%;
+        height: auto;
     }
     .promotion {
         margin-left: 2%;
