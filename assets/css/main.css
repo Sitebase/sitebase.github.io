@@ -112,7 +112,7 @@ img {
 [role=main] {
     margin: 2em auto;
     text-align: left;
-    max-width: 700px;
+    max-width: 710px;
 }
 
 [role=main] > * {
@@ -295,7 +295,7 @@ img {
 .nav__avatar {
     max-height: 60px;
     border-radius: 50%;
-    padding: 0 15px;
+    margin: 0 15px;
 }
 .nav__code {
     font-family: 'Source Code Pro', monospace;
