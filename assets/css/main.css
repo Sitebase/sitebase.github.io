@@ -113,7 +113,7 @@ img {
 [role=main] {
     margin: 2em auto;
     text-align: left;
-    max-width: 710px;
+    width: min(710px, 100%);
 }
 
 [role=main] > * {
@@ -489,8 +489,6 @@ img {
 
 @media only screen and (max-width: 750px) {
     [role=main] {
-        max-width: 100%;
-        width: auto; 
         margin: 0;
     }
     [role=main] > * {
