@@ -152,6 +152,12 @@ woontes veranderen blijkt aartsmoeilijk. Vermageringsdiëten leunen op louter wi
 - name: The Way of the Runner
   excerpt: "It may come as a surprise to many people, but Japan is the most running-obsessed country on earth. A 135-mile relay race, or ekiden, is the country's biggest annual sporting event. Thousands of professional runners compete for corporate teams in some of the most competitive races in the world. The legendary marathon monks run a thousand marathons in a thousand days to reach spiritual enlightenment."
   author: Adharanand Finn
-  image: hhttps://media.s-bol.com/JJlzlOkQQgD/550x830.jpg
+  image: https://media.s-bol.com/JJlzlOkQQgD/550x830.jpg
   link: https://www.bol.com/nl/p/the-way-of-the-runner-a-journey-into-the-fabled-world-of-japanese-running/9200000066201061/
+  completed: false
+- name: The Big Reset
+  excerpt: "A system reset seems imminent. The world's financial system will need to find a new anchor before the year 2020. Since the beginning of the credit crisis, the US realized the dollar will lose its role as the world's reserve currency, and has been planning for a monetary reset."
+  author: Willem Middelkoop
+  image: https://media.s-bol.com/mYDN88ErJ68r/540x840.jpg
+  link: https://www.bol.com/nl/f/the-big-reset-revised-edition/9200000053325460/
   completed: false
