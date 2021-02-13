@@ -88,6 +88,12 @@
   image: https://media.standaardboekhandel.be/-/media/mdm/product/9789463932905/frontImagesLink.img?rev=2894501720&mw=525&hash=22BFEB3A531D17E9A687C28ABFB03E7C
   link: https://www.standaardboekhandel.be/p/pijn-doet-groeien-9789463932905
   completed: 2021-01-03
+- name: Writing Down the Bones
+  excerpt: "For more than thirty years Natalie Goldberg has been challenging and cheering on writers with her books and workshops. In her groundbreaking first book, she brings together Zen meditation and writing in a new way."
+  author: Natalie Goldberg
+  image: https://media.s-bol.com/ml2KvOnzmWO/543x840.jpg
+  link: https://www.bol.com/nl/f/writing-down-the-bones/30435710/
+  completed: false
 - name: Sapiens
   excerpt: "Honderdduizend jaar geleden waren er wel zes verschillende menssoorten. Nu is er maar één soort over, en dat zijn wij. Homo sapiens. Hoe komt het dat alleen wij zijn overgebleven?"
   author: Yuval Noah Harari
