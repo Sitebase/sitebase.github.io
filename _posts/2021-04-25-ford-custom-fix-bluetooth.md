@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Fixing connection problems with Ford Transit custom SYNC"
+title: "Fixing Bluetooth connection problems with Ford Transit custom"
 description: "Solving the problem of being unable to connect your phone using Bluetooth to your Ford Transit custom SYNC system."
 tags: [repair, diy, electronics]
 image:
