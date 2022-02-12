@@ -6,6 +6,7 @@ tags: [photo, photography, workflow]
 image:
   opacity: 0.9
   feature: posts/2020/photo-naming-convention.png
+  alt: Photo naming convention
 credit:
   creditlink:
 comments: true
@@ -36,23 +37,23 @@ The first part of the filename (`20200412_105342`) represents the date, and the 
 I'm using the ISO 8601 standard here were you order the units of time from the largest to the smallest: year, month, day, hour, minute, and second.
 Doing this will give you some advantages:
 
-* A European (and most of the rest of the world) would read 01-12-2001 as December 1st, 2001, whereas a person from the United States would see it as January 12th, 2001. 
+* A European (and most of the rest of the world) would read 01-12-2001 as December 1st, 2001, whereas a person from the United States would see it as January 12th, 2001.
 Using the ISO standard for the dates will prevent misreading of the dates.
 * Because the ISO formatted date is the first part of the filename, it's very easy to chronologically order your photos in a file explorer.
 
 ### Camera
-The second part in our example (`nikon7100`) represents the camera used to take the photo. 
+The second part in our example (`nikon7100`) represents the camera used to take the photo.
 This camera part will make it possible to search for all photos taken with a particular camera quickly.
 
 ### Hash
 The third part to talk about is the hash (`def5ff8`), which is probably also the most significant differentiation point with most other photo naming conventions you'll find online.
-To ensure that the hash stays the same, we need to use raw files and store your file modifications in a sidecar XMP file. If you save photo modification in the file itself, it will change the binary and, as a result, also the actual hash of the photo.  
+To ensure that the hash stays the same, we need to use raw files and store your file modifications in a sidecar XMP file. If you save photo modification in the file itself, it will change the binary and, as a result, also the actual hash of the photo.
 
 The hashing function that I use is SHA-1, which will give me a fixed size short string representation for a given photo. Interesting here to note is that a given picture will always produce the same hash. From this hash, I then only use the seven first characters.
 
 But what is the added value of adding this to your filenames? It turns out that this small piece of information is super powerful and gives you many advantages.
 
-* Running my naming convention on one photo will always generate the same filename. 
+* Running my naming convention on one photo will always generate the same filename.
 It's is a significant advantage over some other convention where you would rely on incremental numbers.  If you rename the picture with my convention and drop it in your library, your OS will show you that there is already a file in the folder with the same name.
 * Imagine if you would only use date and time in your filename. What would happen if you take a collection of photos in burst mode. You'll probably be going to end up with two or more images having the same name and potentially overwriting each other, depending on the tools you are using to rename your files. And if you want to keep these photos, you'll have to diverge from your convention slightly because you'll have to add an extra incremental number. By using a hash, each picture will have a unique name by default.
 

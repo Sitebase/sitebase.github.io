@@ -6,6 +6,7 @@ tags: [tip, automate]
 image:
   opacity: 0.9
   feature: posts/2017/desktop-cleanup-mess.jpg
+  alt: Cluttered desktop with icons
 credit:
   creditlink:
 comments: true

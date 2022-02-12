@@ -7,6 +7,7 @@ tags: [iot, electronics, howto]
 image:
   opacity: 0.4
   feature: posts/2016/esp8266-01-firmware.jpg
+  alt: ESP8266 on white paper
   credit:
   creditlink:
 comments: true

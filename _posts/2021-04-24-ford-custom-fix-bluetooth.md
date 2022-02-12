@@ -5,7 +5,8 @@ description: "Solving the problem of being unable to connect your phone using Bl
 tags: [repair, diy, electronics]
 image:
   opacity: 0.9
-  feature: posts/2021/ford-transit-custom-fuse-box.png
+  feature: posts/2021/ford-transit-custom-fuse-box.jpg
+  alt: Ford fuses overview
 credit:
   creditlink:
 comments: true
@@ -31,5 +32,5 @@ F37 GPS/sync fuse
 * insert fuse
 * turn ignition on
 
-And after these steps, you'll be ready to connect again. 
+And after these steps, you'll be ready to connect again.
 It can take a minute before sync is booted.

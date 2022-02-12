@@ -6,6 +6,7 @@ tags: [privacy, security]
 image:
   opacity: 0.9
   feature: posts/2018/google-earh-privacy.jpg
+  alt: Street view road
 credit:
   creditlink:
 comments: true

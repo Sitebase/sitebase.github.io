@@ -6,6 +6,7 @@ modified: 2016-05-19 18:08:48 +0200
 tags: [iphone, repair]
 image:
   feature: posts/2016/iphone-toothpick.jpg
+  alt: iPhone with hand holding toothpick
   opacity: 0.8
   credit:
   creditlink:

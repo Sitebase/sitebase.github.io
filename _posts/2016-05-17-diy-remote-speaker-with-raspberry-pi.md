@@ -6,6 +6,7 @@ modified: 2016-05-17 20:08:48 +0200
 tags: [audio, electronics, diy, raspberry pi]
 image:
   feature: posts/2016/home-made-remote-speaker-raspberrypi.jpg
+  alt: Raspberry Pi build into amp
   opacity: 0.8
   credit:
   creditlink:

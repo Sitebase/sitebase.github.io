@@ -7,6 +7,7 @@ tags: [garden]
 image:
   opacity: 0.9
   feature: posts/2016/pepper-powder.jpg
+  alt: red pepper powder on dish
   credit:
   creditlink:
 comments: true

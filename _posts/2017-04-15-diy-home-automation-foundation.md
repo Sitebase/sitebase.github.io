@@ -6,6 +6,7 @@ tags: [home automation, plc]
 image:
   opacity: 0.9
   feature: posts/2017/home-automation-beckhoff-plc-din-rail.jpg
+  alt: Beckhoff PLC with connected wires
   credit:
   creditlink:
 comments: true
