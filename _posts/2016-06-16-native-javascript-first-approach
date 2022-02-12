@@ -1,20 +1,21 @@
 ---
 layout: post
 title: "Native JavaScript first approach"
-description: "A "
+description: "Trying to solve javascript challenges with native vanilla JS instea of jQuery"
 modified: 2016-05-15 20:35:17 +0100
 tags: [es6, javascript, reactjs]
 image:
   opacity: 0.4
   feature: posts/2016/javascript-logo-header.jpg
+  alt:
   credit:
   creditlink:
 comments: true
 share: true
 ---
-Sad to see so much javascript stack overflow issues being solved with jquery that could perfectly be solved with native Javascript.
+Sad to see so much javascript stack overflow issues being solved with jQuery that could perfectly be solved with native Javascript.
 
-Even if you have jquery doesn't mean you need to use it for everything in your code base.
+Even if you have jQuery doesn't mean you need to use it for everything in your code base.
 
 
 document.querySelectorAll

@@ -6,6 +6,7 @@ tags: [cryptocurrency, trading]
 image:
   opacity: 0.9
   feature: posts/2017/trade-candle-graph-crypto.jpg
+  alt: Crypto currency bar chart
 credit:
   creditlink:
 comments: true

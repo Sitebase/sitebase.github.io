@@ -6,6 +6,7 @@ modified: 2016-08-05 19:35:17 +0100
 tags: [photo, lightroom, dropbox, photography, productivity, workflow]
 image:
   feature: posts/2016/wim-mostmans-photography.jpg
+  alt: Wim Mostmans taking a picture in the mirror
   credit:
   creditlink:
 comments: true

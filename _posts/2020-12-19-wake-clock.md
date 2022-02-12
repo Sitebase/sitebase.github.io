@@ -6,6 +6,7 @@ tags: [diy, electronics]
 image:
   opacity: 0.9
   feature: posts/2020/wakeclock-owl.jpg
+  alt: Yello owl sleeping
 credit:
   creditlink:
 comments: true
@@ -23,13 +24,13 @@ Some of the features I had in mind for this clock were the following;
 * Slide button to turn the clock on or off.
 
 ## Power Source
-I had some of these cheap 18650 battery bank holders lying around. 
+I had some of these cheap 18650 battery bank holders lying around.
 In combination with a refurbished 18650 cell of an old laptop battery, it would make for the perfect cheap power source for this project.
-This solution solves a lot of stuff in one go: 
+This solution solves a lot of stuff in one go:
 
 * It's a powerful power source which makes it possible to run the light for multiple weeks (with some code optimizations probably months) without a recharge
-* The option to quickly recharge the battery using a USB charger 
-* And maybe the most important - some well-needed safety against over-discharge or a short circuit of the 18650 cell 
+* The option to quickly recharge the battery using a USB charger
+* And maybe the most important - some well-needed safety against over-discharge or a short circuit of the 18650 cell
 
 I first soldered the positive wire to the leftmost pin of the USB output port. I've drilled a hole in the battery bank cap, which I stick the positive and negative wire through. These wires were then used as my constant 5v power supply for the ESP8266.
 
@@ -54,7 +55,7 @@ But if you turn the light off and hold the push button in and turn the light bac
 I've also made it so that the red and green LEDs both light up, so it's visually clear that the clock is in program mode.
 
 ## Result
-The result of the DIY project was a healthy night rest for both father and son. 
+The result of the DIY project was a healthy night rest for both father and son.
 Invaluable if you ask me!
 
 ![Wake clock](/images/posts/2020/wakeclock-mode.jpg)

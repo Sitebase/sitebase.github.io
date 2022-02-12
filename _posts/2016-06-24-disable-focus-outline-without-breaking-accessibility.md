@@ -7,6 +7,7 @@ tags: [accessibility, javascript, css]
 image:
   opacity: 0.4
   feature: posts/2016/accessibility.jpg
+  alt: Illustrated character on a blue background
   credit:
   creditlink:
 comments: true

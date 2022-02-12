@@ -6,6 +6,7 @@ modified: 2015-08-20 08:52:48 +0200
 tags: [home automation, electronics, api]
 image:
   feature: posts/2016/phillips-hue-lights-warm.jpg
+  alt: Phillips Hue lamps coloring living area
   credit:
   creditlink:
 comments:

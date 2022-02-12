@@ -6,6 +6,7 @@ tags: [repair, diy, electronics]
 image:
   opacity: 0.9
   feature: posts/2021/ford-transit-custom-fuse-box.jpg
+  alt: Ford fuses overview
 credit:
   creditlink:
 comments: true

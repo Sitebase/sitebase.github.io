@@ -6,6 +6,7 @@ tags: [repair, diy, electronics]
 image:
   opacity: 0.9
   feature: posts/2021/loewe-subwoofer-mod.jpg
+  alt: LOEWE subwoofer print board
 credit:
   creditlink:
 comments: true

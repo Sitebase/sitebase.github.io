@@ -6,6 +6,7 @@ tags: [tip, photo, photography, workflow]
 image:
   opacity: 0.9
   feature: posts/2017/geotag-photo-lightroom-map.jpg
+  alt: Satelite view with GEO tags
   credit:
   creditlink:
 comments: true

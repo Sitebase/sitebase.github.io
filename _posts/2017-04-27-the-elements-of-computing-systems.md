@@ -6,6 +6,7 @@ tags: [book]
 image:
   opacity: 0.9
   feature: posts/2017/the-elements-of-computing-systems-child.jpg
+  alt: The elements of computing systems book cover
   credit:
   creditlink:
 comments: true

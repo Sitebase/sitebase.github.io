@@ -7,6 +7,7 @@ tags: [es6, javascript, reactjs]
 image:
   opacity: 0.4
   feature: posts/2016/avatars.jpg
+  alt: avatars gallery
   credit:
   creditlink:
 comments: true

@@ -6,6 +6,7 @@ tags: [travel]
 image:
   opacity: 0.9
   feature: posts/2019/ibiza4.jpg
+  alt: Sunset at Benirras with live drums
 credit:
   creditlink:
 comments: true

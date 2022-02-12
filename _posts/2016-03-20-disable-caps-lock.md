@@ -7,6 +7,7 @@ tags: [productivity, development]
 image:
   opacity: 0.5
   feature: posts/2016/qwerty-keyboard-mac.jpg
+  alt: Mac book query keyboard
   credit:
   creditlink:
 comments: true

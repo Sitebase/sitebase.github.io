@@ -7,6 +7,7 @@ tags: [photo, iphone, howto]
 image:
   opacity: 0.4
   feature: posts/2016/iphone-toothpick.jpg
+  alt: iPhone with hand holding toothpick
   credit:
   creditlink:
 comments: true
