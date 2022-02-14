@@ -1,7 +1,7 @@
 ---
 layout: books
 title: Books
-description: "Wim Mostmans is lead developer and Co-founder @BuboBox and @Ambassify, Freelancer, Open source contributor and Former CodeCanyon reviewer"
+description: "Overview of the books I've been reading and the ones still on my reading list."
 comments: false
 sitemap:
   changefreq: monthly

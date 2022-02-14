@@ -1,7 +1,7 @@
 ---
 layout: post-index
 title: Freelance web developer
-description: "Wim Mostmans is lead developer and Co-founder @BuboBox and @Ambassify, Freelancer, Open source contributor and Former CodeCanyon reviewer"
+description: "I'm Wim Mostmans, I'm co-founder and CTO @Ambassify. Freelance autodidact web developer, open source contributor and electronics enthusiast."
 comments: false
 sitemap:
   changefreq: weekly
