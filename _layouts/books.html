@@ -11,7 +11,7 @@ body_id: post-index
 {% if book.completed != false %}
 <div class="article article--short">
     <div class="columns-book">
-        <img src="{{ book.image }}" alt="{{ book.name }} cover" class="article__head-image article__head-image--small article__head-image--tall article__head-image--book" />
+        <img src="{{ book.image }}" alt="{{ book.name }} book cover" class="article__head-image article__head-image--small article__head-image--tall article__head-image--book" />
         <div>
             <div class="article__head-title">
                 <h3>{{ book.name }}</h3>
@@ -31,7 +31,7 @@ body_id: post-index
 {% if book.completed == false %}
 <div class="article article--short">
     <div class="columns-book">
-        <img src="{{ book.image }}" class="article__head-image article__head-image--small article__head-image--tall article__head-image--book article__head-image--grayscale" />
+        <img src="{{ book.image }}" alt="{{ book.name }} book cover" class="article__head-image article__head-image--small article__head-image--tall article__head-image--book article__head-image--grayscale" />
         <div>
             <div class="article__head-title">
                 <h3>
