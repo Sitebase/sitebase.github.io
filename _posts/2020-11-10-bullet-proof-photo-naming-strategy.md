@@ -5,7 +5,7 @@ description: "What's the best way to name all photos you take with a wide range 
 tags: [photo, photography, workflow]
 image:
   opacity: 0.9
-  feature: posts/2020/photo-naming-convention.png
+  feature: posts/2020/photo-naming-convention.jpg
   alt: Photo naming convention
 credit:
   creditlink:
