@@ -94,7 +94,6 @@
     {% assign seo_image = page.image.feature | prepend: "/images/" | prepend: base_path %}
 {% endif %}
 <meta property="og:image" content="{{ seo_image }}">
-o
 
 {% if page.date %}
   <meta property="article:published_time" content="{{ page.date | date_to_xmlschema }}">
