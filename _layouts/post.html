@@ -12,7 +12,7 @@ body_id: post
     </div>
 
     <img src="{{ site.url }}/images/{{ page.image.feature }}" alt="{{ page.image.alt | default: page.title }}" class="header" />
-    {{ content }}
+    {{ content | replace: '<img', '<img loading="lazy"' }}
 
 </div>
 {% include tip-jar.html %}
