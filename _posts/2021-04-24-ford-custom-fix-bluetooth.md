@@ -15,7 +15,7 @@ share: true
 After connecting a few different Bluetooth devices to my Ford Transit custom SYNC system, I was suddenly unable to connect anymore using my regular phone.
 It turns out there is a straightforward fix for this problem. You have to reset the SYNC system which can be done by following the steps below:
 
-Find the fuse `F37` which should be in the fuse box at the drivers side.
+Find the [fuse](https://tidd.ly/34ZZ8GY) `F37` which should be in the fuse box at the drivers side.
 ![Ford Transit custom fuse box](/images/posts/2021/ford-transit-custom-fuse-box-location.png)
 <br />
 You can confirm the fuse position by searching in the PDF version of the manual for `SYNC module`.

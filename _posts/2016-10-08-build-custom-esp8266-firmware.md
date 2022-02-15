@@ -13,7 +13,7 @@ image:
 comments: true
 share: true
 ---
-In this quick reference I'll show you how to build the NodeMCU firmware from source and flash it on your ESP8266. In this case I used the ESP8266-01.
+In this quick reference I'll show you how to build the NodeMCU firmware from source and flash it on your [ESP8266](https://tidd.ly/3HTf1gX). In this case I used the [ESP8266-01](https://tidd.ly/3HTf1gX).
 
 You can use these exact same steps to flash any version of ESP8266 but the way you will connect it to your FTDI will differ. A simple [Google images search](https://www.google.be/search?q=esp8266-12+ftdi&biw=888&bih=1103&source=lnms&tbm=isch&sa=X&ved=0ahUKEwir-uiy4MrPAhWnK8AKHSCWCdMQ_AUIBigB) will help you to find the connection schema for your ESP8266 version.
 

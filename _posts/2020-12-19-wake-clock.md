@@ -32,7 +32,7 @@ This solution solves a lot of stuff in one go:
 * The option to quickly recharge the battery using a USB charger
 * And maybe the most important - some well-needed safety against over-discharge or a short circuit of the 18650 cell
 
-I first soldered the positive wire to the leftmost pin of the USB output port. I've drilled a hole in the battery bank cap, which I stick the positive and negative wire through. These wires were then used as my constant 5v power supply for the ESP8266.
+I first soldered the positive wire to the leftmost pin of the USB output port. I've drilled a hole in the battery bank cap, which I stick the positive and negative wire through. These wires were then used as my constant 5v power supply for the [ESP8266](https://tidd.ly/3JsKRS6).
 
 ![Wake clock electronics](/images/posts/2020/wakeclock-connected.jpg)
 

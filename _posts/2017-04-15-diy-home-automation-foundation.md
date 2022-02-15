@@ -31,7 +31,7 @@ You can prevent all sorts of annoying situations if you think about the topics a
 Ask yourself questions like:
 
 * What happens in case of a power failure and will the system be able to recover?
-* Is this [sonoff](https://www.itead.cc/sonoff-wifi-wireless-switch.html) that I've stuck behind the couch safe for my child?
+* Is this [sonoff](https://tidd.ly/34Mv29U) that I've stuck behind the couch safe for my child?
 * Will my garden sensors be able to withstand a week of pouring rain?
 * Can I add extra sensors to my system and is there a limit?
 
@@ -49,7 +49,7 @@ What I mean by this is focus on the functionality you'll find in a everyday hous
 Pressing button X will turn on light Y. Pressing button A will close shutter B.
 
 This part of the system is the core and should in my personal opinion be really secure, reliable, safe and extendible.
-So for me personally, boards like Arduino, RaspberryPi's and other DIY boards are a no go in this part of your system.
+So for me personally, boards like Arduino, [RaspberryPi's](https://tidd.ly/3rPfUBt) and other DIY boards are a no go in this part of your system.
 Don't get me wrong, I'm a huge fan of these platforms but there are just to many things that need to get patched before these systems will meet the above listed requirements.
 
 To give you an idea of some of the hurdles you'll run into when using DIY boards in your core system:
