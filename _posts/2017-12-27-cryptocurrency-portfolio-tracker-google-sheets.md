@@ -16,6 +16,7 @@ When you are active in the crypto world you'll know that having 3 or more
 different exchange accounts is not a strange thing. Certain coins (especially new ones)
 will only be listed on certain exchanges until they reach a certain
 cryptocurrency market capitalization which will force other exchanges to adopt them.
+I personally use both [Binance](https://accounts.binance.com/en/register?ref=13010372) and [Coinbase](https://www.coinbase.com/join/mostma_4) as my main trading exchanges.
 
 ![Cryptocurrency dashboard](/images/posts/2017/cryptocurrency-tracker-dashboard.jpg)
 
