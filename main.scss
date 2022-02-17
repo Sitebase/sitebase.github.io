@@ -1,3 +1,6 @@
+---
+---
+
 /*****************************************************
  * CONFIG
  ****************************************************/
@@ -37,14 +40,14 @@
     --main-border-radius: 4px;
 }
 
-* { 
-    -moz-box-sizing: border-box; 
-    -webkit-box-sizing: border-box; 
-     box-sizing: border-box; 
+* {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+     box-sizing: border-box;
 }
 
 /**
- * CSS Reset 
+ * CSS Reset
  */
 html, body {
     text-align: center;
@@ -65,7 +68,7 @@ h3 {
     color: rgb(var(--main-color-text));
 }
 
-p, ol, ul, li { 
+p, ol, ul, li {
     font-family: var(--main-font-secondary);
     color: rgba(var(--main-color-text));
 }
@@ -288,7 +291,7 @@ img {
     padding: 15px;
 }
 .nav__logo {
-    text-decoration: none; 
+    text-decoration: none;
     color: rgb(var(--main-color-secondary));
 }
 .nav__logo2 {
@@ -318,7 +321,7 @@ img {
 }
 .tags__button {
     cursor: pointer;
-    display: inline-block;  
+    display: inline-block;
     height: 30px;
     font-size: 0.8em;
     margin-left: 15px;
@@ -341,7 +344,7 @@ img {
     height: 0px;
     width: 0px;
     margin-right: -15px;
-    right: 0; 
+    right: 0;
 }
 
 /**
