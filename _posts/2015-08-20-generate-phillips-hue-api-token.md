@@ -20,7 +20,10 @@ To use this API you will need to get a token but at the moment there is no offic
 You can do it as follows:
 
 * Get your bridge IP via `https://www.meethue.com/api/nupnp`
-* Go to the API debugger `http://<bridge ip address>/debug/clip.html` and use message body `{"devicetype":"my_hue_app#hue app"}`.
+* Go to the API debugger `http://<bridge ip address>/debug/clip.html` and use `/api/` as URL and message body `{"devicetype":"my_hue_app#hue app"}`.
+
+![Phillips Hue API debugger](/images/posts/2016/phillips-hue-api-debugger.jpg)
+
 * Press the button on your bridge and now push the `POST` button on the debugger.
 * You should see a response like:
 
