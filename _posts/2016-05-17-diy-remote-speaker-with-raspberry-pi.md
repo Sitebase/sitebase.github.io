@@ -25,7 +25,7 @@ So now that I have my hardware selected it was time to search a good OS to run o
 
 ## Mount Raspberry Pi
 The next challenge was finding a way to mount the [Raspberry Pi](https://tidd.ly/3oON0zF) inside the receiver case without getting a short circuit with the metal casing of the receiver.
-When searching through my giant pile of Deal Extreme stuff I found these [nylon spacers](https://www.dx.com/p/zndiy-bry-m3-x-30-6-nylon-spacer-hex-nylon-pillars-for-multicopter-rc-model-black-10-pcs-336490?Utm_rid=85999879&Utm_source=affiliate) which would be perfect for this.
+When searching through my giant pile of Deal Extreme stuff I found these [nylon spacers](https://s.click.aliexpress.com/e/_Abr9J5) which would be perfect for this.
 
 ![Raspberry Pi spacer](/images/posts/2016/home-made-remote-speaker-spacer.jpg)
 

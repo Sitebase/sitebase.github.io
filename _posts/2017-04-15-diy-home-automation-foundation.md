@@ -131,7 +131,7 @@ No matter what kind of sensors you use. Most of them will have a solution to pub
 
 If you are looking for a cheap solution to build a wide range of sensors make sure to check out [MySensors](https://www.mysensors.org/).
 MySensors is an open source project that provides you with all sorts of sketches for your Arduino to build a gateway/client network.
-The cool thing is that the communication between the clients(sensors) and the gateway is done using cheap radio modules like this [NRF24L01+](http://www.dx.com/p/nrf24l01-2-4ghz-enhanced-wireless-modules-black-4-pcs-403021?Utm_rid=85999879&Utm_source=affiliate).
+The cool thing is that the communication between the clients(sensors) and the gateway is done using cheap radio modules like this [NRF24L01+](https://s.click.aliexpress.com/e/_AaNyiX).
 These ultra low power radio modules make it possible to run your sensors on a pair of AA batteries for over a year.
 
 ![Sensor MQTT network](/images/posts/2017/home-automation-sensor-mqtt-pubsub.png)
