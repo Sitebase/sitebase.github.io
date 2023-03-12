@@ -5,7 +5,7 @@ description: "Mod your LOEWE sound subwoofer so that it also can be used without
 tags: [repair, diy, electronics]
 image:
   opacity: 0.9
-  feature: posts/2021/loewe-subwoofer-mod.jpg
+  feature: posts/2021/loewe-subwoofer-mod.webp
   alt: LOEWE subwoofer print board
 credit:
   creditlink:

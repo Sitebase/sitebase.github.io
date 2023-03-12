@@ -5,7 +5,7 @@ description: "Basic workflow for markdown note taking in Vim without the need fo
 tags: [vim, productivity]
 image:
   opacity: 0.9
-  feature: posts/2022/vim-note-taking-markdown-folds-min.png
+  feature: posts/2022/vim-note-taking-markdown-folds-min.webp
   alt: Folds in Vim
 credit:
   creditlink:
