@@ -430,6 +430,9 @@ img {
 .article__head-title-link {
     color: #333333;
     text-decoration: none;
+    &:hover {
+        text-decoration: underline;
+    }
 }
 .article__head-image--grayscale {
     filter: grayscale(100%);

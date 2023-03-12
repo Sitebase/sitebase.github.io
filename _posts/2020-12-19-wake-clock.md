@@ -5,7 +5,7 @@ description: "What's the best way to name all photos you take with a wide range 
 tags: [diy, electronics]
 image:
   opacity: 0.9
-  feature: posts/2020/wakeclock-owl.jpg
+  feature: posts/2020/wakeclock-owl.webp
   alt: Yello owl sleeping
 credit:
   creditlink:

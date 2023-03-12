@@ -5,7 +5,7 @@ description: "Solving the problem of being unable to connect your phone using Bl
 tags: [repair, diy, electronics]
 image:
   opacity: 0.9
-  feature: posts/2021/ford-transit-custom-fuse-box.jpg
+  feature: posts/2021/ford-transit-custom-fuse-box.webp
   alt: Ford fuses overview
 credit:
   creditlink:
