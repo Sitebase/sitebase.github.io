@@ -19,7 +19,6 @@ body_id: post-index
         <img src="{{ site.url }}/images/{{ post.image.feature }}" {% if forloop.index > 2 %}loading="lazy" {% endif %}width="640px" height="200px" class="article__head-image article__head-image--small" alt="{{ post.title }}" />
     </a>
     {{ post.excerpt }}
-    <a href="{{ site.url }}{{ post.url }}" tabindex="-1" class="button button--transparent">Read More</a>
 </div>
 {% endfor %}
 
