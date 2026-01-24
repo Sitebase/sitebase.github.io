@@ -19,9 +19,9 @@ jobs:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
-          claude-code --headless \
-            --prompt "Implement issue #${{ github.event.issue.number }}" \
-            --allowedTools "bash,git,github"
+          claude \
+            --p "Implement issue #${{ github.event.issue.number }}" \
+            --allowedTools "Read,Edit,bash,git,github"
 
   review:
     needs: develop
@@ -36,6 +36,6 @@ jobs:
         run: |
           # Find the PR created by developer agent
           PR_NUMBER=$(gh pr list --head "feature/issue-${{ github.event.issue.number }}" --json number -q '.[0].number')
-          claude-code --headless \
-            --prompt "Review PR #$PR_NUMBER" \
-            --allowedTools "bash,git,github"
+          claude \
+            --p"Review PR #$PR_NUMBER" \
+            --allowedTools "Read,Edit,bash,git,github"
