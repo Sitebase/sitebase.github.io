@@ -20,7 +20,7 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           claude \
-            --p "Implement issue #${{ github.event.issue.number }}" \
+            -p "Implement issue #${{ github.event.issue.number }}" \
             --allowedTools "Read,Edit,bash,git,github"
 
   review:
@@ -37,5 +37,5 @@ jobs:
           # Find the PR created by developer agent
           PR_NUMBER=$(gh pr list --head "feature/issue-${{ github.event.issue.number }}" --json number -q '.[0].number')
           claude \
-            --p"Review PR #$PR_NUMBER" \
+            -p"Review PR #$PR_NUMBER" \
             --allowedTools "Read,Edit,bash,git,github"
