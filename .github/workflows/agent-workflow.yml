@@ -1,0 +1,41 @@
+name: Agent Development Workflow
+
+on:
+  issues:
+    types: [labeled]
+
+jobs:
+  develop:
+    if: github.event.label.name == 'agent-develop'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Setup Claude Code
+        run: npm install -g @anthropic-ai/claude-code
+
+      - name: Run Developer Agent
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          claude-code --headless \
+            --prompt "Implement issue #${{ github.event.issue.number }}" \
+            --allowedTools "bash,git,github"
+
+  review:
+    needs: develop
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Run Reviewer Agent
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          # Find the PR created by developer agent
+          PR_NUMBER=$(gh pr list --head "feature/issue-${{ github.event.issue.number }}" --json number -q '.[0].number')
+          claude-code --headless \
+            --prompt "Review PR #$PR_NUMBER" \
+            --allowedTools "bash,git,github"
